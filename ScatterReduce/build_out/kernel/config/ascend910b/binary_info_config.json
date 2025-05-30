@@ -1,0 +1,73 @@
+{
+  "ScatterReduce": {
+    "dynamicRankSupport": true,
+    "simplifiedKeyMode": 0,
+    "optionalInputMode": "gen_placeholder",
+    "optionalOutputMode": "gen_placeholder",
+    "params": {
+      "inputs": [
+        {
+          "name": "self",
+          "index": 0,
+          "paramType": "required",
+          "formatMode": "static_nd_agnostic"
+        },
+        {
+          "name": "index",
+          "index": 1,
+          "paramType": "required",
+          "formatMode": "static_nd_agnostic"
+        },
+        {
+          "name": "src",
+          "index": 2,
+          "paramType": "required",
+          "formatMode": "static_nd_agnostic"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "y",
+          "index": 0,
+          "paramType": "required",
+          "formatMode": "static_nd_agnostic"
+        }
+      ],
+      "attrs": [
+        {
+          "name": "dim"
+        },
+        {
+          "name": "reduce"
+        },
+        {
+          "name": "include_self"
+        }
+      ]
+    },
+    "binaryList": [
+      {
+        "coreType": 2,
+        "simplifiedKey": [
+          "ScatterReduce/d=0,p=1/0,2/3,2/0,2/0,2",
+          "ScatterReduce/d=0,p=0/0,2/3,2/0,2/0,2",
+          "ScatterReduce/d=1,p=1/0,2/3,2/0,2/0,2",
+          "ScatterReduce/d=1,p=0/0,2/3,2/0,2/0,2"
+        ],
+        "binPath": "ascend910b/scatter_reduce/ScatterReduce_b3292e28b5a330ade0fd6b28e66294aa.o",
+        "jsonPath": "ascend910b/scatter_reduce/ScatterReduce_b3292e28b5a330ade0fd6b28e66294aa.json"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": [
+          "ScatterReduce/d=0,p=1/1,2/3,2/1,2/1,2",
+          "ScatterReduce/d=0,p=0/1,2/3,2/1,2/1,2",
+          "ScatterReduce/d=1,p=1/1,2/3,2/1,2/1,2",
+          "ScatterReduce/d=1,p=0/1,2/3,2/1,2/1,2"
+        ],
+        "binPath": "ascend910b/scatter_reduce/ScatterReduce_c9254d95645e3542c63f638d2cd42539.o",
+        "jsonPath": "ascend910b/scatter_reduce/ScatterReduce_c9254d95645e3542c63f638d2cd42539.json"
+      }
+    ]
+  }
+}

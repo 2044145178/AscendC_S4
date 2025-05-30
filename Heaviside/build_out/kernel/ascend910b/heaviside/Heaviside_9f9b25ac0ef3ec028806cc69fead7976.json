@@ -1,0 +1,102 @@
+{
+ "binFileName": "Heaviside_9f9b25ac0ef3ec028806cc69fead7976",
+ "binFileSuffix": ".o",
+ "blockDim": -1,
+ "coreType": "VectorCore",
+ "core_type": "AIV",
+ "intercoreSync": 0,
+ "kernelName": "Heaviside_9f9b25ac0ef3ec028806cc69fead7976",
+ "magic": "RT_DEV_BINARY_MAGIC_ELF_AIVEC",
+ "memoryStamping": [],
+ "opParaSize": 64,
+ "parameters": [
+  null,
+  null,
+  null,
+  null
+ ],
+ "sha256": "a681a79d22080073d8900aecd39c34fce910fb7d704b43504b6cec62965dfd1f",
+ "workspace": {
+  "num": 1,
+  "size": [
+   -1
+  ],
+  "type": [
+   0
+  ]
+ },
+ "kernelList": [
+  {
+   "kernelName": "Heaviside_9f9b25ac0ef3ec028806cc69fead7976_1"
+  },
+  {
+   "kernelName": "Heaviside_9f9b25ac0ef3ec028806cc69fead7976_2"
+  },
+  {
+   "kernelName": "Heaviside_9f9b25ac0ef3ec028806cc69fead7976_3"
+  },
+  {
+   "kernelName": "Heaviside_9f9b25ac0ef3ec028806cc69fead7976_4"
+  },
+  {
+   "kernelName": "Heaviside_9f9b25ac0ef3ec028806cc69fead7976_5"
+  }
+ ],
+ "optionalInputMode": "gen_placeholder",
+ "optionalOutputMode": "gen_placeholder",
+ "compileInfo": {},
+ "supportInfo": {
+  "implMode": "high_performance",
+  "int64Mode": false,
+  "simplifiedKeyMode": 0,
+  "simplifiedKey": [
+   "Heaviside/d=0,p=1/1,2/1,2/1,2",
+   "Heaviside/d=0,p=0/1,2/1,2/1,2",
+   "Heaviside/d=1,p=1/1,2/1,2/1,2",
+   "Heaviside/d=1,p=0/1,2/1,2/1,2"
+  ],
+  "optionalInputMode": "gen_placeholder",
+  "optionalOutputMode": "gen_placeholder",
+  "staticKey": "3c0dc7616702378e8e07a3b90bc9753be35e3eedd825cb55a99aa3a5eb343cce,24db4d78a3a31c0287aa11345320c199348443901fef8fe630f68f86fd5dc348",
+  "inputs": [
+   {
+    "name": "input",
+    "index": 0,
+    "dtype": "float16",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   },
+   {
+    "name": "values",
+    "index": 1,
+    "dtype": "float16",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   }
+  ],
+  "outputs": [
+   {
+    "name": "out",
+    "index": 0,
+    "dtype": "float16",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   }
+  ],
+  "opMode": "dynamic",
+  "deterministic": "ignore"
+ },
+ "filePath": "ascend910b/bin/heaviside/Heaviside_9f9b25ac0ef3ec028806cc69fead7976.json"
+}

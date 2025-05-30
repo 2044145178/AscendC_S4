@@ -1,0 +1,134 @@
+{
+ "binFileName": "ScatterReduce_c9254d95645e3542c63f638d2cd42539",
+ "binFileSuffix": ".o",
+ "blockDim": -1,
+ "coreType": "VectorCore",
+ "core_type": "AIV",
+ "intercoreSync": 0,
+ "kernelName": "ScatterReduce_c9254d95645e3542c63f638d2cd42539",
+ "magic": "RT_DEV_BINARY_MAGIC_ELF_AIVEC",
+ "memoryStamping": [],
+ "opParaSize": 48,
+ "parameters": [
+  null,
+  null,
+  null,
+  null,
+  null
+ ],
+ "sha256": "eac018338ac823f9a921790d24b8dfe404baa70293353341cc18e51c2c39cbbf",
+ "workspace": {
+  "num": 1,
+  "size": [
+   -1
+  ],
+  "type": [
+   0
+  ]
+ },
+ "kernelList": [
+  {
+   "kernelName": "ScatterReduce_c9254d95645e3542c63f638d2cd42539_1"
+  },
+  {
+   "kernelName": "ScatterReduce_c9254d95645e3542c63f638d2cd42539_2"
+  },
+  {
+   "kernelName": "ScatterReduce_c9254d95645e3542c63f638d2cd42539_3"
+  },
+  {
+   "kernelName": "ScatterReduce_c9254d95645e3542c63f638d2cd42539_4"
+  },
+  {
+   "kernelName": "ScatterReduce_c9254d95645e3542c63f638d2cd42539_5"
+  },
+  {
+   "kernelName": "ScatterReduce_c9254d95645e3542c63f638d2cd42539_6"
+  }
+ ],
+ "optionalInputMode": "gen_placeholder",
+ "optionalOutputMode": "gen_placeholder",
+ "compileInfo": {},
+ "supportInfo": {
+  "implMode": "high_performance",
+  "int64Mode": false,
+  "simplifiedKeyMode": 0,
+  "simplifiedKey": [
+   "ScatterReduce/d=0,p=1/1,2/3,2/1,2/1,2",
+   "ScatterReduce/d=0,p=0/1,2/3,2/1,2/1,2",
+   "ScatterReduce/d=1,p=1/1,2/3,2/1,2/1,2",
+   "ScatterReduce/d=1,p=0/1,2/3,2/1,2/1,2"
+  ],
+  "optionalInputMode": "gen_placeholder",
+  "optionalOutputMode": "gen_placeholder",
+  "staticKey": "3d4d463c841b097514959986275680aa57365a85feb2a0f4035dbce32a760e86,e754b6807c99f490e43a39854702e92534e3191806185919c79c53b7314e82da",
+  "inputs": [
+   {
+    "name": "self",
+    "index": 0,
+    "dtype": "float16",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   },
+   {
+    "name": "index",
+    "index": 1,
+    "dtype": "int32",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   },
+   {
+    "name": "src",
+    "index": 2,
+    "dtype": "float16",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   }
+  ],
+  "outputs": [
+   {
+    "name": "y",
+    "index": 0,
+    "dtype": "float16",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   }
+  ],
+  "attrs": [
+   {
+    "name": "dim",
+    "dtype": "int",
+    "value": 0
+   },
+   {
+    "name": "reduce",
+    "dtype": "str",
+    "value": ""
+   },
+   {
+    "name": "include_self",
+    "dtype": "bool",
+    "value": false
+   }
+  ],
+  "opMode": "dynamic",
+  "deterministic": "ignore"
+ },
+ "filePath": "ascend910b/bin/scatter_reduce/ScatterReduce_c9254d95645e3542c63f638d2cd42539.json"
+}

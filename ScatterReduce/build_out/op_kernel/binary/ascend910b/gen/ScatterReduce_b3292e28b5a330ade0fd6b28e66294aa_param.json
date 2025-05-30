@@ -1,0 +1,73 @@
+{
+  "op_type": "ScatterReduce",
+  "op_list": [
+    {
+      "bin_filename": "ScatterReduce_b3292e28b5a330ade0fd6b28e66294aa",
+      "inputs": [
+        {
+          "name": "self",
+          "index": 0,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        },
+        {
+          "name": "index",
+          "index": 1,
+          "dtype": "int32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        },
+        {
+          "name": "src",
+          "index": 2,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "y",
+          "index": 0,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "attrs": [
+        {
+          "name": "dim",
+          "dtype": "int",
+          "value": 0
+        },
+        {
+          "name": "reduce",
+          "dtype": "str",
+          "value": ""
+        },
+        {
+          "name": "include_self",
+          "dtype": "bool",
+          "value": false
+        }
+      ]
+    }
+  ]
+}

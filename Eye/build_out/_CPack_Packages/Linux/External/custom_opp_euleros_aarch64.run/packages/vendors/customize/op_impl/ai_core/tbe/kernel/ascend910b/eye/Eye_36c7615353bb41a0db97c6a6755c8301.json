@@ -1,0 +1,106 @@
+{
+ "binFileName": "Eye_36c7615353bb41a0db97c6a6755c8301",
+ "binFileSuffix": ".o",
+ "blockDim": -1,
+ "coreType": "VectorCore",
+ "core_type": "AIV",
+ "intercoreSync": 0,
+ "kernelName": "Eye_36c7615353bb41a0db97c6a6755c8301",
+ "magic": "RT_DEV_BINARY_MAGIC_ELF_AIVEC",
+ "memoryStamping": [],
+ "opParaSize": 56,
+ "parameters": [
+  null,
+  null,
+  null
+ ],
+ "sha256": "ca406f7de083888c59ec9ce0082e98403f6b35578e41593a40673701ae22eaf4",
+ "workspace": {
+  "num": 1,
+  "size": [
+   -1
+  ],
+  "type": [
+   0
+  ]
+ },
+ "kernelList": [
+  {
+   "kernelName": "Eye_36c7615353bb41a0db97c6a6755c8301_1"
+  },
+  {
+   "kernelName": "Eye_36c7615353bb41a0db97c6a6755c8301_2"
+  },
+  {
+   "kernelName": "Eye_36c7615353bb41a0db97c6a6755c8301_3"
+  }
+ ],
+ "optionalInputMode": "gen_placeholder",
+ "optionalOutputMode": "gen_placeholder",
+ "compileInfo": {},
+ "supportInfo": {
+  "implMode": "high_performance",
+  "int64Mode": false,
+  "simplifiedKeyMode": 0,
+  "simplifiedKey": [
+   "Eye/d=0,p=1/0,2/0,2",
+   "Eye/d=0,p=0/0,2/0,2",
+   "Eye/d=1,p=1/0,2/0,2",
+   "Eye/d=1,p=0/0,2/0,2"
+  ],
+  "optionalInputMode": "gen_placeholder",
+  "optionalOutputMode": "gen_placeholder",
+  "staticKey": "404c0ee4766381a6578b17ecff04fb05288b112b08d40802e5a61627aa6a5dd4,6592a999aea4872052e4fe74791183df3516c4f07ed60228e1dcb2acc6da96e9",
+  "inputs": [
+   {
+    "name": "y",
+    "index": 0,
+    "dtype": "float32",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   }
+  ],
+  "outputs": [
+   {
+    "name": "y",
+    "index": 0,
+    "dtype": "float32",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   }
+  ],
+  "attrs": [
+   {
+    "name": "num_rows",
+    "dtype": "int",
+    "value": 0
+   },
+   {
+    "name": "num_columns",
+    "dtype": "int",
+    "value": 0
+   },
+   {
+    "name": "batch_shape",
+    "dtype": "list_int",
+    "value": []
+   },
+   {
+    "name": "dtype",
+    "dtype": "int",
+    "value": 0
+   }
+  ],
+  "opMode": "dynamic",
+  "deterministic": "ignore"
+ },
+ "filePath": "ascend910b/bin/eye/Eye_36c7615353bb41a0db97c6a6755c8301.json"
+}
